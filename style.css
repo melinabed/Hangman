@@ -1,3 +1,38 @@
-h1 {
-  color: red;
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-family: Arial;
+}
+
+/**/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.category-name {
+  font-size: 24px;
+}
+
+.right-header {
+  font-size: 32px;
+}
+
+/**/
+
+/**/
+
+.footer {
+  position: absolute;
+  bottom: 0;
 }
