@@ -9,50 +9,43 @@
   <body>
     <div class="header">
       <div class="left-header">
-        <div class="sidebar">
+        <div class="category">
           <button>
-            <span><img id="menu" src="menu.svg" /></span>
+            <span><img id="menu" src="/menuSVGs/menu.svg" /></span>
           </button>
         </div>
-        <div class="category-name">
-          Category: <span id="category">Countries</span>
-        </div>
+      </div>
+      <div class="category-name">
+        Category: <span id="category">Countries</span>
       </div>
       <div class="right-header">
         <div class="title">HangMan</div>
       </div>
     </div>
-    <div class="main"></div>
-    <div class="footer">
-      <div class="letters">
-        <button>A</button>
-        <button>B</button>
-        <button>C</button>
-        <button>D</button>
-        <button>E</button>
-        <button>F</button>
-        <button>G</button>
-        <button>H</button>
-        <button>I</button>
-        <button>J</button>
-        <button>K</button>
-        <button>L</button>
-        <button>M</button>
-        <button>N</button>
-        <button>O</button>
-        <button>P</button>
-        <button>Q</button>
-        <button>R</button>
-        <button>S</button>
-        <button>T</button>
-        <button>U</button>
-        <button>V</button>
-        <button>W</button>
-        <button>X</button>
-        <button>Y</button>
-        <button>Z</button>
+    <div class="main">
+      <div class="sidebar">
+        <div id="pick">Countries</div>
+        <div id="pick">Animals</div>
+        <div id="pick">Four letter words</div>
+        <div id="pick">Cars</div>
+        <div id="pick">Holidays</div>
+        <div id="pick">Movies</div>
+        <div id="pick">Sports teams</div>
+        <div id="pick">Superheroes</div>
+        <div id="pick">Anime Characters</div>
+        <div id="pick">Vacation destination</div>
+      </div>
+      <div class="content">
+        <div class="hangman-wrapper">
+          <img src="hangmanSVGs/phase0.svg" id="hangman" />
+        </div>
+        <div class="guess-wrapper">
+          <button id="test">test</button>
+        </div>
+        <div class="letter-wrapper"></div>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
